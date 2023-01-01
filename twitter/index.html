@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  <script src="https://unpkg.com/phosphor-icons"></script>
+  <style>
+    body {
+      font-family: Roboto;
+    }
+  </style>
+  <title>Twitter UI Clone</title>
+</head>
+
+<body class="bg-slate-900">
+  <div>
+    <div>
+      <div class="m-5">
+        <h1 class="text-2xl text-white font-bold select-none">Página Inicial</h1>
+        <div class="mt-4 flex gap-4">
+          <div class="shrink-0 w-14 h-14 bg-cover bg-[url(https://github.com/tiagoryandev.png)] rounded-full"></div>
+          <div class="p-4 w-full bg-slate-800 rounded-2xl">
+            <h1 class="mb-4 text-blue-100 select-none">Escreva um Tweet</h1>
+            <p  class="p-2 w-full max-w-xs text-blue-100 bg-slate-800 hover:bg-slate-700 focus:bg-slate-700 rounded outline-none" contenteditable>O que você está pensando?</p>
+            <div class="mt-4 w-full border-t-2 border-slate-600"></div>
+            <div class="mt-4 flex justify-between items-center">
+              <div class="flex gap-4">
+                <i class="text-xl text-blue-300 hover:text-blue-100 cursor-pointer ph-image-square"></i>
+                <i class="text-xl text-blue-300 hover:text-blue-100 cursor-pointer ph-gif"></i>
+                <i class="text-xl text-blue-300 hover:text-blue-100 cursor-pointer ph-smiley"></i>
+                <i class="text-xl text-blue-300 hover:text-blue-100 cursor-pointer ph-map-pin"></i>
+              </div>
+              <button class="px-4 py-1 text-white bg-blue-500 hover:bg-blue-600 rounded-full">Tweetar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script></script>
+</body>
+
+</html>
