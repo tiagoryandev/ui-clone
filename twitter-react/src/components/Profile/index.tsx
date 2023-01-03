@@ -12,6 +12,7 @@ const Profile: React.FC = () => {
 					<p>{Math.floor(Math.random() * 100)} Tweets</p>
 				</div>
 			</C.Header>
+			<C.Background />
 		</C.Container>
 	);
 };
