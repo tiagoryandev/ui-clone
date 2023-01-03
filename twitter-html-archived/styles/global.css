@@ -1,7 +1,0 @@
-body {
-  font-family: Roboto;
-}
-
-.scrollbar-hide::-webkit-scrollbar {
-  display: none;
-}
