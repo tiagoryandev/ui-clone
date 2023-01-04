@@ -49,3 +49,38 @@ export const Background = styled("div", {
 	backgroundSize: "cover",
 	backgroundPosition: "center"
 });
+
+export const Body = styled("div", {
+	width: "100%",
+	position: "relative",
+	padding: "20px",
+	"& > .avatar": {
+		position: "absolute",
+		top: "-60px",
+		left: "20px",
+		width: "130px",
+		height: "130px",
+		backgroundImage: "url(https://pbs.twimg.com/profile_images/1607384568583127041/LujLyAOO_400x400.jpg)",
+		backgroundSize: "cover",
+		backgroundPosition: "center",
+		borderRadius: "50%",
+		border: "4px solid #ffffff",
+		cursor: "pointer"
+	},
+	"& > .perfil-edit": {
+		display: "block",
+		margin: "0 0 0 auto",
+		padding: "10px 16px",
+		backgroundColor: "#ffffff",
+		border: "1px solid rgb(207, 217, 222)",
+		borderRadius: "20px",
+		fontSize: "15px",
+		fontWeight: "bold",
+		userSelect: "none",
+		cursor: "pointer",
+		transition: "background 0.5s",
+		"&:hover": {
+			backgroundColor: "rgba(15, 20, 25, 0.1)"
+		}
+	}
+});

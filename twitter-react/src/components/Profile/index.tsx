@@ -13,6 +13,10 @@ const Profile: React.FC = () => {
 				</div>
 			</C.Header>
 			<C.Background />
+			<C.Body>
+				<div className="avatar" />
+				<button className="perfil-edit">Editar perfil</button>
+			</C.Body>
 		</C.Container>
 	);
 };
