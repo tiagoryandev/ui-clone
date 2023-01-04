@@ -1,5 +1,6 @@
 import { styled } from "@stitches/react";
 import { BiArrowBack } from "react-icons/bi";
+import { IconType } from "react-icons";
 
 export const Container = styled("div", {
 	position: "relative",
@@ -53,7 +54,7 @@ export const Background = styled("div", {
 export const Body = styled("div", {
 	width: "100%",
 	position: "relative",
-	padding: "20px",
+	padding: "12px 16px",
 	"& > .avatar": {
 		position: "absolute",
 		top: "-60px",
@@ -81,6 +82,51 @@ export const Body = styled("div", {
 		transition: "background 0.5s",
 		"&:hover": {
 			backgroundColor: "rgba(15, 20, 25, 0.1)"
+		}
+	},
+	"& > .user-info": {
+		marginTop: "26px",
+		"& > h1": {
+			fontSize: "20px"
+		},
+		"& > h2": {
+			marginTop: "2px",
+			fontSize: "15px",
+			fontWeight: "normal",
+			color: "#536471"
+		},
+		"& > p": {
+			marginTop: "15px",
+			fontSize: "15px",
+			color: "#0f1419",
+			lineHeight: "20px"
+		}
+	}
+});
+
+export const ListInfos = styled("ul", {
+	marginTop: "10px",
+	display: "flex",
+	flexWrap: "wrap",
+	gap: "4px",
+	"& > li": {
+		display: "flex",
+		alignItems: "center",
+		gap: "5px",
+		fontSize: "15px",
+		lineHeight: "12px",
+		color: "#536471",
+		listStyle: "none",
+		"& > svg": {
+			width: "20px",
+			height: "20px"
+		},
+		"& > a": {
+			color: "#1d9bf0",
+			textDecoration: "none",
+			"&:hover": {
+				textDecoration: "underline"
+			}
 		}
 	}
 });
