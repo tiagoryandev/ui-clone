@@ -30,6 +30,10 @@ const Profile: React.FC = () => {
 					<li><AiOutlineLink /> <a href="https://wwww.linkedin.com/in/tiagoryan">linkedin.com/in/tiagoryan</a></li>
 					<li><IoCalendarOutline /> Ingressou em agosto de 2022</li>
 				</C.ListInfos>
+				<div className="status">
+					<p><span>{Math.floor(Math.random() * 100)}</span> Seguindo</p>
+					<p><span>{Math.floor(Math.random() * 100)}</span> Seguidores</p>
+				</div>
 			</C.Body>
 		</C.Container>
 	);

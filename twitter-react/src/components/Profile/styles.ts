@@ -101,6 +101,23 @@ export const Body = styled("div", {
 			color: "#0f1419",
 			lineHeight: "20px"
 		}
+	},
+	"& > .status": {
+		marginTop: "10px",
+		display: "flex",
+		gap: "10px",
+		"& > p": {
+			fontSize: "14px",
+			color: "#536471",
+			userSelect: "none",
+			cursor: "pointer",
+			"& > span": {
+				color: "#000000"
+			},
+			"&:hover": {
+				textDecoration: "underline"
+			}
+		}
 	}
 });
 
