@@ -1,6 +1,5 @@
 import { styled } from "@stitches/react";
 import { BiArrowBack } from "react-icons/bi";
-import { IconType } from "react-icons";
 
 export const Container = styled("div", {
 	position: "relative",
@@ -112,6 +111,7 @@ export const Body = styled("div", {
 			userSelect: "none",
 			cursor: "pointer",
 			"& > span": {
+				fontWeight: "bold",
 				color: "#000000"
 			},
 			"&:hover": {
@@ -146,4 +146,29 @@ export const ListInfos = styled("ul", {
 			}
 		}
 	}
+});
+
+export const NavigationTabs = styled("div", {
+	display: "flex",
+	borderBottom: "1px solid rgb(207, 217, 222)",
+	"& > .tab": {
+		padding: "20px 16px",
+		flexGrow: 1,
+		textAlign: "center",
+		color: "#536471",
+		transition: "background-color 0.5s",
+		userSelect: "none",
+		cursor: "pointer",
+		"&.select": {
+			color: "#000000",
+			fontWeight: "bold",
+			textDecoration: "underline",
+			textUnderlineOffset: "16px",
+			textDecorationThickness: "4px",
+			textDecorationColor: "rgb(29, 155, 240)"
+		},
+		"&:hover": {
+			backgroundColor: "rgba(15, 20, 25, 0.1)"
+		},
+	},
 });

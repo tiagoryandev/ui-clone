@@ -35,6 +35,12 @@ const Profile: React.FC = () => {
 					<p><span>{Math.floor(Math.random() * 100)}</span> Seguidores</p>
 				</div>
 			</C.Body>
+			<C.NavigationTabs>
+				<div className="tab select">Tweets</div>
+				<div className="tab">Tweets e respostas</div>
+				<div className="tab">Mídia</div>
+				<div className="tab">Curtidas</div>
+			</C.NavigationTabs>
 		</C.Container>
 	);
 };
