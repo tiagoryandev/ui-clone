@@ -172,3 +172,11 @@ export const NavigationTabs = styled("div", {
 		},
 	},
 });
+
+export const SuggestionFollow = styled("div", {
+	"& > h1": {
+		padding: "12px 16px",
+		fontSize: "20px",
+		color: "0f1419",
+	}
+});

@@ -4,6 +4,7 @@ import { AiOutlineLink } from "react-icons/ai";
 import { IoCalendarOutline } from "react-icons/io5";
 
 import * as C from "./styles";
+import Account from "../Account";
 
 const Profile: React.FC = () => {
 	return (
@@ -41,6 +42,27 @@ const Profile: React.FC = () => {
 				<div className="tab">Mídia</div>
 				<div className="tab">Curtidas</div>
 			</C.NavigationTabs>
+			<C.SuggestionFollow>
+				<h1>Quem seguir</h1>
+				<Account
+					avatarURL="http://github.com/diego3g.png"
+					fullName="Diego Fernandes"
+					userName="@dieegosf"
+					biography="Não fico perto de Dev Angular."
+				/>
+				<Account
+					avatarURL="http://github.com/erickwendel.png"
+					fullName="Erick Wendel"
+					userName="@erickwendel_"
+					biography="Vamos usar JavaScript no BackEnd?"
+				/>
+				<Account
+					avatarURL="http://github.com/DevMedia.png"
+					fullName="DevMedia"
+					userName="@DevMedia"
+					biography="Vamos escravizar os Estagiários"
+				/>
+			</C.SuggestionFollow>
 		</C.Container>
 	);
 };
