@@ -5,6 +5,7 @@ import { IoCalendarOutline } from "react-icons/io5";
 
 import * as C from "./styles";
 import Account from "../Account";
+import Tweet from "../Tweet";
 
 const Profile: React.FC = () => {
 	return (
@@ -63,6 +64,12 @@ const Profile: React.FC = () => {
 					biography="Vamos escravizar os Estagiários"
 				/>
 			</C.SuggestionFollow>
+			<Tweet
+				avatarURL="https://github.com/tiagoryandev.png"
+				fullName="Tiago Ryan"
+				userName="@tiagoryandev"
+				content="Gostaram desse clone do twitter?"
+			/>
 		</C.Container>
 	);
 };

@@ -72,7 +72,7 @@ export const Body = styled("div", {
 		margin: "0 0 0 auto",
 		padding: "10px 16px",
 		backgroundColor: "#ffffff",
-		border: "1px solid rgb(207, 217, 222)",
+		border: "1px solid rgb(239, 243, 244)",
 		borderRadius: "20px",
 		fontSize: "15px",
 		fontWeight: "bold",
@@ -150,7 +150,7 @@ export const ListInfos = styled("ul", {
 
 export const NavigationTabs = styled("div", {
 	display: "flex",
-	borderBottom: "1px solid rgb(207, 217, 222)",
+	borderBottom: "1px solid rgb(239, 243, 244)",
 	"& > .tab": {
 		padding: "20px 16px",
 		flexGrow: 1,
@@ -174,6 +174,7 @@ export const NavigationTabs = styled("div", {
 });
 
 export const SuggestionFollow = styled("div", {
+	borderBottom: "1px solid rgb(239, 243, 244)",
 	"& > h1": {
 		padding: "12px 16px",
 		fontSize: "20px",
