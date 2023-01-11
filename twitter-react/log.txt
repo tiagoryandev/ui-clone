@@ -1,0 +1,6 @@
+2023/01/11 12:41:26 Micro started
+2023/01/11 12:41:26 real runtime file syntax
+2023/01/11 12:42:46 Cleared cursors: 1
+2023/01/11 12:43:38 real runtime file syntax
+2023/01/11 12:43:59 real runtime file syntax
+2023/01/11 12:44:15 real runtime file syntax

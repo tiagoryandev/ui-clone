@@ -1,15 +1,13 @@
 export {
-  Home,
-  Notifications,
-  Email,
-  FavoriteBorder,
-  ExitToApp,
-  LocationOn,
-  Search,
-} from "styled-icons/material-outlined";
-
-export { Person, Cake, Favorite } from "styled-icons/material";
-
-export { ArrowLeft } from "styled-icons/heroicons-solid";
-
-export { Chatbubbles as Chat } from "styled-icons/ionicons-outline";
+  House as Home,
+  Bell as Notifications,
+  EnvelopeSimple as Email,
+  BookmarkSimple as FavoriteBorder,
+  SignOut as ExitToApp,
+  MapPin as LocationOn,
+  MagnifyingGlass as Search,
+  User as Person,
+  Cake,
+  ArrowLeft,
+  ChatCircle as Chat
+} from "phosphor-react";
